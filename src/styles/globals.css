@@ -2,18 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Customize html tags */
+@layer base {
+  body {
+    @apply bg-secondary-900;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    @apply text-primary-100;
+  }
 }
 
+/* Custom CSS Variables */
+/* Remember to use @apply to apply Tailwind syntax */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Custom CSS Classes made by you */
+@layer components{
+
 }
