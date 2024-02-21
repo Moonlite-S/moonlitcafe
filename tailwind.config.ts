@@ -76,7 +76,7 @@ const config: Config = {
         800: '#054B82',
         900: '#002847',
       },
-    }
+    },
   },
 };
 export default config;

@@ -22,5 +22,25 @@
 
 /* Custom CSS Classes made by you */
 @layer components{
+  .navBarBG{
+    background-color: rgba(2,11,16,0.5)
+  }
+  .primaryGlow {
+    @apply drop-shadow-[0_0px_50px_rgba(255,245,187,1.0)];
+  }
 
+  .homeH1 {
+    @apply text-4xl;
+  }
+
+  .homep{
+    @apply text-lg;
+    @apply px-20;
+    @apply leading-loose;
+    @apply whitespace-pre-line
+  }
+  
+  .gradientBG {
+    @apply bg-gradient-to-b from-secondary-900 from-30% to-secondary-800;
+  }
 }
