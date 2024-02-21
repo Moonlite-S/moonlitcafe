@@ -47,7 +47,7 @@ export default function Home() {
           Become Invigorated with our Moon-Latte
         </HomeMainTextHeader>
         <HomeMainTextSubtext>
-          Introducing our out-of-this-world Moon-Latte! Dive into a celestial experience with every sip of this rich and creamy blend. Crafted with the finest ingredients and a touch of magic, our Moon-Latte is guaranteed to transport your taste buds to the stars. Embrace the cosmic flavors and treat yourself to a celestial delight today!
+          {"Introducing our out-of-this-world Moon-Latte! Dive into a celestial experience with every sip of this rich and creamy blend. Crafted with the finest ingredients and a touch of magic, our Moon-Latte is guaranteed to transport your taste buds to the stars. Embrace the cosmic flavors and treat yourself to a celestial delight today!"}
         </HomeMainTextSubtext>
       </HomeMainTextContainer>
       <HomeMainPhotoContainer image={logo}/>
@@ -60,7 +60,7 @@ export default function Home() {
           Our Best Sellers
         </HomeMainTextHeader>
         <HomeMainTextSubtext>
-          Indulge in a world of flavor with our stellar lineup of coffee creations! From the smooth and velvety Galaxy Mocha to the bold and robust Solar Espresso, our collection offers something for every coffee lover. Elevate your mornings with the ethereal Moon-Latte, or savor the aromatic notes of the Nebula Cappuccino. Each sip is a journey through the cosmos, handcrafted with care and passion. Explore our celestial menu and discover your new favorite brew today!
+          {"Indulge in a world of flavor with our stellar lineup of coffee creations! From the smooth and velvety Galaxy Mocha to the bold and robust Solar Espresso, our collection offers something for every coffee lover. Elevate your mornings with the ethereal Moon-Latte, or savor the aromatic notes of the Nebula Cappuccino. Each sip is a journey through the cosmos, handcrafted with care and passion. Explore our celestial menu and discover your new favorite brew today!"}
         </HomeMainTextSubtext>
       </HomeMainTextContainer>
     </HomeMainContainer>
@@ -71,7 +71,7 @@ export default function Home() {
           Our Mission
         </HomeMainTextHeader>
         <HomeMainTextSubtext>
-        At LunarCo., we are on a mission to elevate your coffee experience to celestial heights. As a small but passionate team of coffee enthusiasts, we pour our heart and soul into crafting unique and flavorful lattes that are out of this world. Our goal is to bring a touch of magic to your daily routine, one sip at a time. Join us on this cosmic journey as we strive to create moments of joy, connection, and discovery through our handcrafted beverages. Welcome to a universe of exceptional coffee experiences - welcome to LunarCo.!
+        {"At LunarCo., we are on a mission to elevate your coffee experience to celestial heights. As a small but passionate team of coffee enthusiasts, we pour our heart and soul into crafting unique and flavorful lattes that are out of this world. Our goal is to bring a touch of magic to your daily routine, one sip at a time. Join us on this cosmic journey as we strive to create moments of joy, connection, and discovery through our handcrafted beverages. Welcome to a universe of exceptional coffee experiences - welcome to LunarCo.!"}
         </HomeMainTextSubtext>
       </HomeMainTextContainer>
       <HomeMainPhotoContainer image={logo}/>
@@ -84,11 +84,11 @@ export default function Home() {
           Contact Us
         </HomeMainTextHeader>
         <HomeMainTextSubtext>
-          Have a question or feedback? We'd love to hear from you! Reach out to us via e-mail, phone, or social media, and our team will be happy to assist you. Whether you're looking to learn more about our products, share your experience, or simply say hello, we're here to help. Join our cosmic community and connect with us today!
-        {"\nE-mail: LunarCo123@moonlatte.com" + "\n" + 
-        "Twitter: @LunarCo / Instagram: @LunarCo" + "\n" +
-        "Phone: 123-456-7890" + "\n" +
-        "Address: 123 Moonlight Ave, Lunar City, LC 12345"}
+          {"Have a question or feedback? We'd love to hear from you! Reach out to us via e-mail, phone, or social media, and our team will be happy to assist you. Whether you're looking to learn more about our products, share your experience, or simply say hello, we're here to help. Join our cosmic community and connect with us today!"}
+          {`\nE-mail: LunarCo123@moonlatte.com" + "\n" + 
+          "Twitter: @LunarCo / Instagram: @LunarCo" + "\n" +
+          "Phone: 123-456-7890" + "\n" +
+          "Address: 123 Moonlight Ave, Lunar City, LC 12345`}
         </HomeMainTextSubtext>
       </HomeMainTextContainer>
     </HomeMainContainer>
