@@ -85,10 +85,10 @@ export default function Home() {
         </HomeMainTextHeader>
         <HomeMainTextSubtext>
           {"Have a question or feedback? We'd love to hear from you! Reach out to us via e-mail, phone, or social media, and our team will be happy to assist you. Whether you're looking to learn more about our products, share your experience, or simply say hello, we're here to help. Join our cosmic community and connect with us today!"}
-          {`\nE-mail: LunarCo123@moonlatte.com" + "\n" + 
+          {"\nE-mail: LunarCo123@moonlatte.com" + "\n" + 
           "Twitter: @LunarCo / Instagram: @LunarCo" + "\n" +
           "Phone: 123-456-7890" + "\n" +
-          "Address: 123 Moonlight Ave, Lunar City, LC 12345`}
+          "Address: 123 Moonlight Ave, Lunar City, LC 12345"}
         </HomeMainTextSubtext>
       </HomeMainTextContainer>
     </HomeMainContainer>
