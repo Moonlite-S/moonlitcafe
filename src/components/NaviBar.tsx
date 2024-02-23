@@ -14,7 +14,8 @@ import Link from 'next/link';
 import React from 'react';
 import burgerMenu from "/public/burgermenu.svg";
 import Image, { StaticImageData } from 'next/image';
-import { motion } from "framer-motion";
+import { easeIn, motion } from "framer-motion";
+import { MoonDivider } from '@/components/MiscComponents';
 
 export default function NaviBar(){
 
@@ -27,41 +28,29 @@ export default function NaviBar(){
 
       <NavbarContent className="hidden sm:flex gap-4 px-5" justify="center">
         <NavbarItem >
-          <Link href="/"><p className="text-xl">Home</p></Link>
+          <Link href="/#home"><p className="text-xl">Home</p></Link>
         </NavbarItem>
         <Divider orientation="vertical"/>
         <NavbarItem>
-          <Link href="#"><p className="text-xl">Products</p></Link>
+          <Link href="/products"><p className="text-xl">Products</p></Link>
         </NavbarItem>
         <Divider orientation="vertical"/>
         <NavbarItem>
-          <Link href="#"><p className="text-xl">Our Mission</p></Link>
+         <Link href="/#mission"><p className="text-xl">Our Mission</p></Link>
         </NavbarItem>
         <Divider orientation="vertical"/>
         <NavbarItem>
-          <Link href="#"><p className="text-xl">Contact Us</p></Link>
+          <Link href="/#contact"><p className="text-xl">Contact Us</p></Link>
         </NavbarItem>
       </NavbarContent>
 
       <NavbarContent justify="end" className="text">
-        <p>Login / Sign Up</p>
+        <Link href="/signUp"><p>Login / Sign Up</p></Link>
       </NavbarContent>
 
   </Navbar>
   );
 };
-
-export function Separator(){
-  return (
-    <Divider orientation="vertical"/>
-  );
-}
-
-export function HomeDivider(){
-  return(
-    <div className='w-[75%] h-[1px] rounded-xl bg-primary-100 my-10 mx-auto' />
-  )
-}
 
 // Home Main Section Components
 
@@ -111,7 +100,7 @@ export function HomeMainTextHeader({children}: {children:React.ReactNode}){
   return(
     <>
     <h1 className='homeH1'>{children}</h1>
-    <HomeDivider />
+    <MoonDivider />
     </>
   )
 }

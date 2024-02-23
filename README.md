@@ -13,6 +13,14 @@ This is a fake e-commerce website, it's not actually real.
 
 ## Changelog
 
+- 2/22/2024 (0.05)
+
+> Started working on Sign Up page (layout)
+
+- 2/21/2024 (0.04)
+
+> Added Sign Up page
+
 - 2/20/2024 (0.03)
 
 > Added the logo and animations for the home page.
